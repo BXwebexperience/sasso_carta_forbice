@@ -7,4 +7,4 @@ SICURAMENTE ci saranno tante cose da ottimizzare, se vi va di contribuire sono c
 
 ###### grazie!
 
-## BX
+## BeatriX
