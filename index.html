@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap" rel="stylesheet">
+
+  <title>SASSO CARTA FORBICI BeatriX</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" type="module"></script>
+</head>
+<body>
+
+  <div class="container">
+    <div class="title">
+      <h1>SASSO CARTA FORBICE!</h1>
+      <h2 id="istruzioni">Premi S per SASSO, C per CARTA, F per FORBICE</h2>
+      <h2>Il primo che colleziona 3 trofei VINCE!</h2>
+    </div>
+
+    <div class="row">
+      <canvas id="canvas" width="400" height="400">
+      </canvas>
+      
+      <img id='rock' class="scelta" src="/emojis/rock.png" alt="scelta">
+      <img id='paper' class="scelta" src="/emojis/paper.png" alt="scelta">
+      <img id='scissors' class="scelta" src="/emojis/scissors.png" alt="scelta">
+
+      <img id='randomEmoji' class="scelta" src="" alt="scelta">
+
+      <div id="game-over-screen"></div>
+
+      <div class="punteggio">
+        &#x25C0; Computer:
+        <span class="pcScoreboard"></span>
+
+        <span id="vincitore"></span>
+        
+        &#x25C0; Player:
+        <span class="userScoreboard"></span>
+      </div>
+      
+    </div>
+  </div>
+
+</body>
+</html>
